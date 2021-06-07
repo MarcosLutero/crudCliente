@@ -1,4 +1,4 @@
-package com.empresa.crudcliente.resources.exceptions;
+ package com.empresa.crudcliente.resources.exceptions;
 
 import java.io.Serializable;
 import java.time.Instant;

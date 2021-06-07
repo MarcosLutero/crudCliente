@@ -36,7 +36,7 @@ public class ClientDTO implements Serializable {
 	public ClientDTO(Client entity) {
 		
 		id = entity.getId();
-		name = entity.getNome();
+		name = entity.getName();
 		cpf = entity.getCpf();
 		income = entity.getIncome();
 		birthDate = entity.getBirthDate();
@@ -52,11 +52,11 @@ public class ClientDTO implements Serializable {
 		this.id = id;
 	}
 
-	public String getNome() {
+	public String getName() {
 		return name;
 	}
 
-	public void setNome(String name) {
+	public void setName(String name) {
 		this.name = name;
 	}
 
